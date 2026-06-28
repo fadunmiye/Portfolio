@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvellous Fadunmiye</title>
+    <link rel="stylesheet" href="./style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="#" class="logo">MF</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#mcode" class="mcode-link">mcode</a></li>
+        <li><a href="#experience">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#skills" onclick="closeMenu()">Skills</a>
+      <a href="#works" onclick="closeMenu()">Works</a>
+      <a href="#mcode" class="mcode-mobile-link" onclick="closeMenu()">mcode</a>
+      <a href="#experience" onclick="closeMenu()">Journey</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="introduction" id="hero">
+      <div class="cta">
+        <p class="nom">Marvellous<br />Fadunmiye</p>
+        <div class="des">
+          <p>I am Him</p>
+          <p>I am Him</p>
+          <p>I am Him</p>
+          <p>I am Him</p>
+          <p>I am Him</p>
+        </div>
+        <div class="des2">
+          <p>I am Him</p>
+          <p>I am Him</p>
+          <p>I am Him</p>
+          <p>I am Him</p>
+          <p>I am Him</p>
+        </div>
+        <button
+          class="btn"
+          onclick="
+            document
+              .getElementById('about')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
+        >
+          Explore My World
+        </button>
+      </div>
+      <div class="img">
+        <img src="img/1778254512296 (2).png" alt="Marvellous Fadunmiye" />
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="line"></div>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee-section">
+      <div class="marquee-track">
+        <span>Developer</span><span>Designer</span><span>Teacher</span>
+        <span>Founder</span><span>Game Dev</span><span>Francophone</span>
+        <span>Developer</span><span>Designer</span><span>Teacher</span>
+        <span>Founder</span><span>Game Dev</span><span>Francophone</span>
+      </div>
+    </div>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-text">
+        <div class="section-label reveal">About Me</div>
+        <div class="section-title reveal reveal-delay-1">
+          A developer,<br />a teacher,<br />a builder
+        </div>
+        <p class="reveal reveal-delay-2">
+          I started learning web development in 2023 at
+          <strong>Larva Coding Academy</strong>. That same year, after
+          completing my training, I was recruited as a tutor there — I went from
+          student to teacher in months. That experience shaped everything.
+        </p>
+        <p class="reveal reveal-delay-3">
+          Since then, I've worked on countless projects — from websites to web
+          apps to brand identities. In 2024, I was privileged to teach at a
+          <strong>federal college in Ibadan</strong>, further deepening my
+          passion for education and knowledge transfer.
+        </p>
+        <p class="reveal reveal-delay-4">
+          In 2025, I picked up <strong>French</strong> because I fell in love
+          with the language. And now in 2026, I'm building
+          <strong>mcode</strong> — an online tech school born from a simple
+          truth: a lot of people want to learn tech but can't afford it, and
+          when they try to teach themselves, they get stuck. I'm changing that.
+        </p>
+
+        <div class="about-stats reveal">
+          <div class="stat">
+            <h3>2023</h3>
+            <p>Started Coding</p>
+          </div>
+          <div class="stat">
+            <h3>50+</h3>
+            <p>Projects Built</p>
+          </div>
+          <div class="stat">
+            <h3>2+</h3>
+            <p>Years Teaching</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-image reveal">
+        <div class="frame">
+          <img src="img/20260213_133821.jpg" alt="About Marvellous" />
+        </div>
+        <div class="offset-text">Larva '23</div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="section-label reveal">What I Do</div>
+      <div class="section-title reveal reveal-delay-1">Skills & Expertise</div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-number">01</div>
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
+          <h3>Web Development</h3>
+          <p>
+            Building fast, responsive, and accessible websites and web apps
+            using modern frameworks and clean code.
+          </p>
+        </div>
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-number">02</div>
+          <div class="skill-icon"><i class="fas fa-pen-nib"></i></div>
+          <h3>UI/UX Design</h3>
+          <p>
+            Creating intuitive interfaces and seamless user experiences that
+            connect people with products meaningfully.
+          </p>
+        </div>
+        <div class="skill-card reveal reveal-delay-3">
+          <div class="skill-number">03</div>
+          <div class="skill-icon"><i class="fas fa-gamepad"></i></div>
+          <h3>Game Development</h3>
+          <p>
+            Newly diving into game dev — exploring interactive worlds,
+            mechanics, and bringing creative ideas to life through code.
+          </p>
+        </div>
+        <div class="skill-card reveal reveal-delay-4">
+          <div class="skill-number">04</div>
+          <div class="skill-icon">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <h3>Teaching & Mentoring</h3>
+          <p>
+            From Larva Coding Academy to a federal college in Ibadan — breaking
+            down complex concepts so anyone can understand.
+          </p>
+        </div>
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-number">05</div>
+          <div class="skill-icon"><i class="fas fa-palette"></i></div>
+          <h3>Brand Identity</h3>
+          <p>
+            Developing cohesive visual identities — from logos to full brand
+            systems that tell your story effectively.
+          </p>
+        </div>
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-number">06</div>
+          <div class="skill-icon"><i class="fas fa-language"></i></div>
+          <h3>French Language</h3>
+          <p>
+            Learning French since 2025 out of pure love for the language. Adding
+            a bilingual edge to everything I build.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works -->
+    <section class="works" id="works">
+      <div class="section-label reveal">Selected Works</div>
+      <div class="section-title reveal reveal-delay-1">Recent Projects</div>
+
+      <div class="works-grid">
+        <div class="work-item reveal">
+          <div class="work-info">
+            <div class="work-number">01</div>
+            <h3>Lumina Dashboard</h3>
+            <p>
+              A comprehensive analytics dashboard designed for a fintech
+              startup. Clean data visualization with real-time updates and an
+              intuitive navigation system.
+            </p>
+            <div class="work-tags">
+              <span>UI/UX</span><span>Dashboard</span><span>Fintech</span>
+            </div>
+            <a href="#" class="work-link"
+              >View Project <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="work-image">
+            <img src="img/1778254512296 (2).png" alt="Lumina Dashboard" />
+          </div>
+        </div>
+
+        <div class="work-item reverse reveal">
+          <div class="work-info">
+            <div class="work-number">02</div>
+            <h3>Noir Fashion</h3>
+            <p>
+              An e-commerce platform for a luxury fashion brand. Minimalist
+              design approach with emphasis on product photography and smooth
+              shopping experience.
+            </p>
+            <div class="work-tags">
+              <span>E-Commerce</span><span>Fashion</span><span>Branding</span>
+            </div>
+            <a href="#" class="work-link"
+              >View Project <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="work-image">
+            <img src="img/1778254512296 (2).png" alt="Noir Fashion" />
+          </div>
+        </div>
+
+        <div class="work-item reveal">
+          <div class="work-info">
+            <div class="work-number">03</div>
+            <h3>Pulse Health App</h3>
+            <p>
+              A health and wellness mobile application with habit tracking,
+              workout plans, and personalized insights. Designed for simplicity
+              and daily motivation.
+            </p>
+            <div class="work-tags">
+              <span>Mobile</span><span>Health</span><span>App Design</span>
+            </div>
+            <a href="#" class="work-link"
+              >View Project <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="work-image">
+            <img src="img/1778254512296 (2).png" alt="Pulse Health App" />
+          </div>
+        </div>
+      </div>
+
+      <div class="view-more-wrap reveal">
+        <button class="view-more-btn" onclick="openProjectsPage()">
+          View More Projects
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- ═══ PROJECTS PAGE (overlay) ═══ -->
+    <div class="projects-page" id="projectsPage">
+      <div class="projects-page-header">
+        <h2>All Projects</h2>
+        <button class="back-btn" onclick="closeProjectsPage()">
+          <i class="fas fa-arrow-left"></i> Back
+        </button>
+      </div>
+      <div class="projects-page-body">
+        <div class="projects-page-grid">
+          <div class="pp-card">
+            <div class="pp-card-img">
+              <img
+                src="https://picsum.photos/seed/pp-portfolio/600/400.jpg"
+                alt="Portfolio Redesign"
+              />
+            </div>
+            <div class="pp-card-body">
+              <div class="pp-num">04 — Portfolio Redesign</div>
+              <h3>Minimal Portfolio</h3>
+              <p>
+                A complete redesign of a personal portfolio site.
+                Black-and-white editorial aesthetic with custom cursor
+                interactions and scroll-driven animations.
+              </p>
+              <div class="work-tags" style="margin-bottom: 15px">
+                <span>Design</span><span>Development</span
+                ><span>Animation</span>
+              </div>
+              <a href="#" class="work-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="pp-card">
+            <div class="pp-card-img">
+              <img
+                src="https://picsum.photos/seed/pp-ecom/600/400.jpg"
+                alt="E-Commerce Platform"
+              />
+            </div>
+            <div class="pp-card-body">
+              <div class="pp-num">05 — E-Commerce</div>
+              <h3>ShopFlow</h3>
+              <p>
+                A full-featured e-commerce platform with cart system, payment
+                integration, and admin dashboard for inventory management.
+              </p>
+              <div class="work-tags" style="margin-bottom: 15px">
+                <span>Fullstack</span><span>E-Commerce</span
+                ><span>Node.js</span>
+              </div>
+              <a href="#" class="work-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="pp-card">
+            <div class="pp-card-img">
+              <img
+                src="https://picsum.photos/seed/pp-school/600/400.jpg"
+                alt="School Management"
+              />
+            </div>
+            <div class="pp-card-body">
+              <div class="pp-num">06 — EdTech</div>
+              <h3>SchoolManage Pro</h3>
+              <p>
+                A school management system built for a federal college in
+                Ibadan. Handles student records, course registration, and result
+                computation.
+              </p>
+              <div class="work-tags" style="margin-bottom: 15px">
+                <span>Web App</span><span>Education</span><span>Database</span>
+              </div>
+              <a href="#" class="work-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="pp-card">
+            <div class="pp-card-img">
+              <img
+                src="https://picsum.photos/seed/pp-game/600/400.jpg"
+                alt="Game Project"
+              />
+            </div>
+            <div class="pp-card-body">
+              <div class="pp-num">07 — Game Dev</div>
+              <h3>Shadow Runner</h3>
+              <p>
+                An early game development project — a 2D side-scroller built as
+                I explore the world of game design and interactive storytelling.
+              </p>
+              <div class="work-tags" style="margin-bottom: 15px">
+                <span>Game Dev</span><span>2D</span><span>Experimental</span>
+              </div>
+              <a href="#" class="work-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="pp-card">
+            <div class="pp-card-img">
+              <img
+                src="https://picsum.photos/seed/pp-blog/600/400.jpg"
+                alt="Blog Platform"
+              />
+            </div>
+            <div class="pp-card-body">
+              <div class="pp-num">08 — Content</div>
+              <h3>InkWell Blog</h3>
+              <p>
+                A clean, typography-focused blogging platform with markdown
+                support, category filtering, and a reading time estimator.
+              </p>
+              <div class="work-tags" style="margin-bottom: 15px">
+                <span>Blog</span><span>Frontend</span><span>Markdown</span>
+              </div>
+              <a href="#" class="work-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="pp-card">
+            <div class="pp-card-img">
+              <img
+                src="https://picsum.photos/seed/pp-mcode/600/400.jpg"
+                alt="mcode"
+              />
+            </div>
+            <div class="pp-card-body">
+              <div class="pp-num">09 — Startup</div>
+              <h3>mcode</h3>
+              <p>
+                The brand identity and waitlist landing page for mcode — an
+                online tech school making quality tech education accessible to
+                everyone.
+              </p>
+              <div class="work-tags" style="margin-bottom: 15px">
+                <span>Branding</span><span>EdTech</span><span>Startup</span>
+              </div>
+              <a href="#mcode" class="work-link" onclick="closeProjectsPage()"
+                >Learn About mcode <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ MCODE ═══ -->
+    <section class="mcode-section" id="mcode">
+      <div class="mcode-topbar"></div>
+      <div class="mcode-bg-text">mcode</div>
+
+      <div class="mcode-inner">
+        <div class="mcode-left">
+          <div class="mcode-badge reveal">
+            <div class="pulse-dot"></div>
+            Coming January 2027
+          </div>
+
+          <h2 class="reveal reveal-delay-1">
+            Introducing<br /><span class="highlight">mcode</span>
+          </h2>
+
+          <p class="mcode-desc reveal reveal-delay-2">
+            I've seen the rise of tech firsthand. I've also seen how many people
+            want to learn but simply <strong>can't afford it</strong>. They try
+            to teach themselves, hit a wall, and get stuck with no one to guide
+            them.
+          </p>
+
+          <p class="mcode-desc reveal reveal-delay-2" style="margin-top: -15px">
+            <strong>mcode</strong> exists to change that. An online tech school
+            where quality education isn't locked behind a paywall — where
+            anyone, regardless of their background, can learn to code and build
+            a future in tech.
+          </p>
+
+          <div class="mcode-pills reveal reveal-delay-3">
+            <span>Frontend Dev</span><span>Backend Dev</span>
+            <span>UI/UX Design</span><span>Mobile Dev</span>
+            <span>Game Dev</span><span>React</span> <span>Node.js</span
+            ><span>Python</span>
+          </div>
+
+          <div class="mcode-cta-row reveal reveal-delay-4">
+            <a href="#" class="mcode-btn">
+              Join the Waitlist <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#" class="mcode-btn-secondary">
+              <i class="fas fa-play"></i> Learn More
+            </a>
+          </div>
+        </div>
+
+        <div class="mcode-right">
+          <div class="mcode-countdown-card reveal">
+            <div class="mcode-countdown-label">Launch Countdown</div>
+            <div class="mcode-countdown" id="countdown">
+              <div class="countdown-unit">
+                <div class="number" id="days">000</div>
+                <div class="label">Days</div>
+              </div>
+              <div class="countdown-separator">:</div>
+              <div class="countdown-unit">
+                <div class="number" id="hours">00</div>
+                <div class="label">Hours</div>
+              </div>
+              <div class="countdown-separator">:</div>
+              <div class="countdown-unit">
+                <div class="number" id="minutes">00</div>
+                <div class="label">Mins</div>
+              </div>
+              <div class="countdown-separator">:</div>
+              <div class="countdown-unit">
+                <div class="number" id="seconds">00</div>
+                <div class="label">Secs</div>
+              </div>
+            </div>
+            <div class="mcode-launch-date">January 31, 2027</div>
+          </div>
+
+          <div class="mcode-features reveal reveal-delay-1">
+            <div class="mcode-feature">
+              <div class="feat-icon"><i class="fas fa-laptop-code"></i></div>
+              <h4>Project-Based</h4>
+              <p>
+                Learn by building real projects, not watching tutorials
+                endlessly
+              </p>
+            </div>
+            <div class="mcode-feature">
+              <div class="feat-icon">
+                <i class="fas fa-hand-holding-heart"></i>
+              </div>
+              <h4>Accessible</h4>
+              <p>
+                Quality tech education that doesn't lock people out based on
+                funds
+              </p>
+            </div>
+            <div class="mcode-feature">
+              <div class="feat-icon"><i class="fas fa-users"></i></div>
+              <h4>Community</h4>
+              <p>
+                A tight-knit community so no one learns alone or gets stuck in
+                silence
+              </p>
+            </div>
+            <div class="mcode-feature">
+              <div class="feat-icon"><i class="fas fa-certificate"></i></div>
+              <h4>Certified</h4>
+              <p>
+                Earn recognized certificates that actually mean something in the
+                industry
+              </p>
+            </div>
+          </div>
+
+          <div class="mcode-social-proof reveal reveal-delay-2">
+            <div class="avatars">
+              <span>M</span><span>A</span><span>T</span><span>+</span>
+            </div>
+            <div class="proof-text">
+              <strong>200+ people</strong> already on the waitlist
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mcode-bottom-strip">
+        <div class="mcode-logo-text"><span>m</span>code</div>
+        <p>Making tech accessible to everyone — by Marvellous Fadunmiye</p>
+      </div>
+    </section>
+
+    <!-- ═══ BEYOND CODE (replaces testimonials) ═══ -->
+    <section class="beyond-code" id="beyond">
+      <div class="bc-bg">Beyond</div>
+      <div class="section-label reveal">Beyond the Code</div>
+      <div class="section-title reveal reveal-delay-1">
+        More Than<br />Just a Developer
+      </div>
+
+      <div class="beyond-grid">
+        <div class="bc-card reveal reveal-delay-1">
+          <div class="bc-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="bc-year">Since 2023</div>
+          <h3>The Teacher</h3>
+          <p>
+            From being recruited as a tutor at Larva Coding Academy the same
+            year I learned, to teaching at a federal college in Ibadan —
+            teaching isn't something I do, it's who I am. I believe knowledge
+            multiplies when shared.
+          </p>
+        </div>
+
+        <div class="bc-card reveal reveal-delay-2">
+          <div class="bc-flag">🇫🇷</div>
+          <div class="bc-icon"><i class="fas fa-language"></i></div>
+          <div class="bc-year">Since 2025</div>
+          <h3>The Francophone</h3>
+          <p>
+            I started learning French in 2025 out of pure love for the language.
+            There's something about the way French sounds, the way it expresses
+            emotion — it adds another dimension to how I see the world and
+            connect with people.
+          </p>
+        </div>
+
+        <div class="bc-card reveal reveal-delay-3">
+          <div class="bc-icon"><i class="fas fa-gamepad"></i></div>
+          <div class="bc-year">2026 — Now</div>
+          <h3>The Game Developer</h3>
+          <p>
+            Just stepped into game development and already hooked. There's a
+            different kind of magic in building interactive worlds — where code
+            meets art meets storytelling. Still early, but the fire is lit.
+          </p>
+        </div>
+
+        <div class="bc-card reveal reveal-delay-4">
+          <div class="bc-icon"><i class="fas fa-heart"></i></div>
+          <div class="bc-year">The Mission</div>
+          <h3>The Problem Solver</h3>
+          <p>
+            I saw a problem — people want to learn tech but can't afford it.
+            They try self-learning and get stuck. mcode is my answer. Every
+            project I take on, every skill I pick up, feeds into this larger
+            mission of making tech truly accessible.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+      <div>
+        <div class="section-label reveal">Journey</div>
+        <div class="section-title reveal reveal-delay-1">My Timeline</div>
+      </div>
+
+      <div class="timeline reveal reveal-delay-2">
+        <div class="timeline-item">
+          <div class="year">2026 — Present</div>
+          <h3>Founder & CEO</h3>
+          <div class="company">mcode — Online Tech School</div>
+          <p>
+            Building an online tech school from scratch — curriculum design,
+            platform development, brand identity. Born from the belief that tech
+            education should be accessible to everyone, not just those who can
+            afford it.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2025</div>
+          <h3>French Language Student</h3>
+          <div class="company">Self-Taught</div>
+          <p>
+            Started learning French out of a deep love for the language. Adding
+            a bilingual dimension to my skill set and worldview.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2024</div>
+          <h3>Lecturer</h3>
+          <div class="company">Federal College, Ibadan</div>
+          <p>
+            Privileged to teach at a federal college in Ibadan, further honing
+            my ability to break down complex technical concepts for diverse
+            groups of students.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2023 — 2024</div>
+          <h3>Tutor & Web Developer</h3>
+          <div class="company">Larva Coding Academy</div>
+          <p>
+            Started as a student learning web development. Was recruited as a
+            tutor the same year after completing my training. Taught multiple
+            cohorts while taking on freelance projects.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2023</div>
+          <h3>The Beginning</h3>
+          <div class="company">Larva Coding Academy — Student</div>
+          <p>
+            Walked into Larva Coding Academy with zero coding knowledge. Walked
+            out as a developer — and walked right back in as a teacher. This is
+            where it all started.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="section-label reveal">Get In Touch</div>
+      <div class="section-title reveal reveal-delay-1">Let's Connect</div>
+      <p class="contact-subtitle reveal reveal-delay-2">
+        Got a project, want to collaborate, interested in mcode, or just want to
+        say hello? I'm always open to conversations that lead to something
+        great.
+      </p>
+      <a
+        href="mailto:hello@marvellousfadunmiye.com"
+        class="contact-email reveal reveal-delay-3"
+        >hello@marvellousfadunmiye.com</a
+      >
+
+      <div class="contact-socials reveal reveal-delay-4">
+        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Marvellous Fadunmiye. All rights reserved.</p>
+      <a href="#hero" class="back-top"
+        >Back to Top <i class="fas fa-arrow-up"></i
+      ></a>
+    </footer>
+  </body>
+</html>
